@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1000">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#b8d0cb"/><stop offset="1" stop-color="#e9e4d5"/></linearGradient>
+ <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#f3ead7"/><stop offset="1" stop-color="#d4c4a5"/></linearGradient>
+ <linearGradient id="glass" x2="0" y2="1"><stop stop-color="#7ba1a1"/><stop offset="1" stop-color="#294f5b"/></linearGradient>
+</defs>
+<rect width="1440" height="1000" fill="url(#sky)"/>
+<circle cx="1160" cy="160" r="76" fill="#f5dba2" opacity=".65"/>
+<path d="M0 560 Q250 430 500 555 T1000 520 T1440 555 V1000 H0Z" fill="#8ca68c"/>
+<path d="M0 680 Q330 565 690 670 T1440 630 V1000 H0Z" fill="#607f68"/>
+<g opacity=".9" fill="#426b55"><circle cx="120" cy="480" r="125"/><circle cx="1320" cy="460" r="160"/><circle cx="1150" cy="530" r="90"/></g>
+<path d="M220 450 L720 230 1210 450 V820 H220Z" fill="#b8a888"/>
+<path d="M190 450 L720 205 1240 450Z" fill="#7b6b57"/>
+<path d="M250 465 L720 260 1165 465 V790 H250Z" fill="url(#wall)"/>
+<rect x="620" y="555" width="195" height="235" fill="#8a6847"/>
+<rect x="642" y="578" width="151" height="212" fill="#294c58"/>
+<g fill="url(#glass)" stroke="#f6eddb" stroke-width="13">
+ <rect x="305" y="505" width="105" height="125"/><rect x="465" y="505" width="105" height="125"/><rect x="865" y="505" width="105" height="125"/><rect x="1025" y="505" width="105" height="125"/>
+ <rect x="305" y="675" width="105" height="100"/><rect x="465" y="675" width="105" height="100"/><rect x="865" y="675" width="105" height="100"/><rect x="1025" y="675" width="105" height="100"/>
+</g>
+<path d="M0 840 Q360 760 720 850 T1440 820 V1000 H0Z" fill="#a7b59a"/>
+<path d="M680 1000 L720 790 770 790 850 1000Z" fill="#d7c8a7" opacity=".9"/>
+<g fill="#2e6048"><circle cx="130" cy="730" r="75"/><circle cx="1280" cy="720" r="100"/><circle cx="1160" cy="790" r="60"/></g>
+<g fill="#795d3c"><rect x="116" y="730" width="25" height="170"/><rect x="1260" y="720" width="35" height="180"/><rect x="1148" y="790" width="22" height="110"/></g>
+<g fill="#fff" opacity=".15"><path d="M0 0H1440V1000H0Z" /></g>
+</svg>
